@@ -1,0 +1,91 @@
+
+
+.titulo {
+    font-size: 3rem;
+    text-align: left;
+    padding: 1rem;
+    text-align: center;
+}
+
+.input-wrap {
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+}
+
+#input-todo {
+    padding: .5rem;
+    font-size: 1rem;
+    margin-right: .5rem;
+}
+
+.botao-adiciona {
+    border: none;
+    background: transparent;
+    color: rgb(88, 231, 88);
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.lista-item {
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    font-size: 1.4rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.tarefa {
+    flex: 1;
+}
+
+.botao-edita, 
+.botao-deleta,
+.check {
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    margin: 0 .25rem;
+    cursor: pointer;
+}
+
+.fa-edit {
+    color: rgb(255, 255, 57);
+    pointer-events: none;
+}
+
+.fa-trash-alt {
+    color: tomato;
+    pointer-events: none;
+}
+
+.concluido {
+    text-decoration: line-through;
+    color: #505050;
+}
+
+.fadeOut {
+    opacity: 0;
+    transition: opacity 500ms ease;
+}
+
+
+.fa-check {
+    pointer-events: none;
+    border: none;
+    background: transparent;
+    color: rgb(137, 237, 255);
+    font-size: 2rem;
+}
+
+.inativo {
+    display: none;
+}
+
+.botao-adiciona:focus,
+.botao-deleta:focus,
+.botao-edita:focus,
+.check:focus {
+    outline: 1px solid rgba(255, 255, 255, 0.39);
+}
