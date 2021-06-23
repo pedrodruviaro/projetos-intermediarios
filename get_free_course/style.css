@@ -1,0 +1,124 @@
+:root {
+    --marrom: #dda272;
+    --marrom-escuro: #9b6d48;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: whitesmoke;
+    font-family: sans-serif;
+}
+
+input {
+    padding: .5rem;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    border: none;
+    background: white;
+    width: 100%;
+}
+
+i {
+    color: white;
+    margin: .5rem;
+    margin-right: .75rem;
+}
+
+.titulo {
+    padding: 2rem;
+    color: var(--marrom-escuro);
+}
+
+.container {
+    padding: 1rem;
+    text-align: center;
+    width: 80%;
+    margin-bottom: 2rem;
+}
+
+.input-wrap {
+    border: 3px solid var(--marrom-escuro);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    background: var(--marrom);
+    padding: .25rem;
+    
+}
+
+.btn-submit {
+    border: none;
+    background: transparent;
+
+    border: 3px solid var(--marrom-escuro);
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    background: var(--marrom);
+    display: inline-block;
+    padding: .5rem;
+    font-size: .9rem;
+    font-weight: 700;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    transition: all .2s;
+}
+
+.btn-submit:hover {
+    background: var(--marrom-escuro);
+}
+
+/* cards */
+.cards {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px 4px rgba(141, 141, 141, 0.2);
+    background: white;
+    padding: 1rem;
+    margin: 1rem auto;
+    width: 280px;
+}
+
+.span-name,
+.span-course,
+    .span-author {
+    border-radius: 3px;
+    padding: .2rem;
+    margin: .5rem 0;
+    margin-right: .75rem;
+    display: inline-block;
+    font-weight: 700;
+    font-size: .9rem;
+}
+
+.span-name {
+    background: rgb(247, 231, 0);
+}
+
+.span-course {
+    background: rgb(38, 156, 38);
+    color: white;
+}
+
+.span-author {
+    background: rgb(214, 70, 70);
+    color: white;
+}

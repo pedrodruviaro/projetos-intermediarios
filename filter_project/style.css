@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: sans-serif;
+    background-color: #333;
+    color: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titulo, input, lista {
+    margin-bottom: 1.5rem;
+}
+
+input {
+    padding: .25rem;
+    font-size: 1.1rem;
+}
+
+.lista-item {
+    padding: .25rem;
+    font-size: 1.1rem;
+}
+
+.invisivel {
+    display: none;
+}
+
+
+/* modal */
+.modal {
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: whitesmoke;
+    color: #333;
+    padding: 1rem;
+    position: absolute;
+    text-align: center;
+    width: 300px;
+    box-shadow: 1px 1px 5px 5px rgba(0,0,0, .1);
+}
+
+.modal-titulo {
+    margin-bottom: 1rem;
+}
+
+.modal-btn {
+    border: 1px solid #333;
+    border-radius: 3px;
+    background: transparent;
+    cursor: pointer;
+    font-weight: 700;
+    padding: .15rem;
+    font-size: 1.25rem;
+
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    opacity: 1 !;
+}
+
+.modal__body-bg {
+    background: tomato
+}
+
+.chama-modal {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
